@@ -603,8 +603,6 @@ tr td {
     margin: 8px;
   }
   .dl-btn {
-    display: block;
-    margin: 20px auto;
     width: 90%;
     text-align: center;
   }
@@ -623,7 +621,6 @@ tr td {
     height: 200px;
   }
   .dl-btn {
-    display: block;
     width: 100%;
     font-size: 15px;
   }
