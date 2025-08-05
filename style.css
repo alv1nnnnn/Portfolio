@@ -457,6 +457,21 @@ tr td {
     padding-top: 15px;
 }
 
+.alert{
+  width: 100%;
+  height: 60px;
+  background-color: #191970;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .contact-box {
@@ -570,6 +585,9 @@ tr td {
     width: 80px;
     margin: 10px;
   }
+  .educ-text{
+    padding-top: 0px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -638,5 +656,11 @@ tr td {
     height: auto;
     width: 80px;
     margin: 6px;
+  }
+  .con-contact{
+    margin: 100px auto 50px;;
+  }
+  .contact-left, .contact-right{
+    margin-left: -20px;
   }
 }
