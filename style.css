@@ -5,6 +5,7 @@
     list-style: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: serif !important;
 }
 body{
     font-family: sans-serif;
