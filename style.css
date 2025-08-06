@@ -510,7 +510,7 @@ tr td {
     margin: 20px 0;
   }
   #check:checked ~ ul {
-    max-height: 320px; /* Adjust based on how many items you have */
+    max-height: 420px; /* Adjust based on how many items you have */
     transition: max-height 0.5s ease-in;
 }
 nav ul {
