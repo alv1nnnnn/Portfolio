@@ -510,8 +510,12 @@ tr td {
     margin: 20px 0;
   }
   #check:checked ~ ul {
-    max-height: 300px; /* Adjust based on how many items you have */
+    max-height: 320px; /* Adjust based on how many items you have */
     transition: max-height 0.5s ease-in;
+}
+nav ul {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    border-top: 1px solid #ccc;
 }
 }
 

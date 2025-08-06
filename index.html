@@ -223,5 +223,26 @@
     }, 5000);
   }
 </script>
+
+<script>
+  // Collapse menu when a nav link is clicked
+  document.querySelectorAll("nav ul li a").forEach(link => {
+    link.addEventListener("click", () => {
+      document.getElementById("check").checked = false;
+    });
+  });
+
+  // Collapse menu when clicking anywhere else on the page (outside nav)
+  document.addEventListener("click", function(event) {
+    const nav = document.querySelector("nav");
+    const checkbox = document.getElementById("check");
+
+    // If click is outside nav and menu is open
+    if (!nav.contains(event.target) && checkbox.checked) {
+      checkbox.checked = false;
+    }
+  });
+</script>
+
 </html>
 </body>
